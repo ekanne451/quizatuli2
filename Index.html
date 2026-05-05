@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZUMINE</title>
+
+    <style>
+        :root {
+            --bg-color: #f3f4f6;
+            --header-bg: #ffffff;
+            --text-main: #000000;
+            --text-muted: #4b5563;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: var(--bg-color);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background: white;
+        }
+
+        .logo {
+            font-weight: bold;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-item {
+            text-decoration: none;
+            color: gray;
+            font-weight: bold;
+        }
+
+        .nav-item.active {
+            color: black;
+        }
+
+        .actions {
+            display: flex;
+            gap: 15px;
+        }
+
+        .profile-button {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">ZUMINE</a>
+
+    <nav class="nav-links">
+        <a href="index.html" class="nav-item active">Início</a>
+        <a href="perfil.html" class="nav-item">Perfil</a>
+        <a href="explorar.html" class="nav-item">Explorar</a>
+        <a href="barradepesquisa.html" class="nav-item">Pesquisar</a>
+        <a href="pensamentos.html" class="nav-item">Pensamentos</a>
+    </nav>
+
+    <div class="actions">
+        <a href="cadastro.html">Cadastrar</a>
+        <a href="perfil.html" class="profile-button">👤</a>
+    </div>
+
+</header>
+
+<main style="padding: 40px;">
+    <h1>Bem-vindo ao Zumine</h1>
+    
+    <h3>Um site inspirado no Theslap</h3>
+    <p>Pensamentos do dia, faça amigos com o mesmo pensamentos que você</p>
+</main>
+
+</body>
+</html>
